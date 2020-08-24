@@ -21,5 +21,5 @@ def selection(get_user_input)
      y = "HAM HAM HAM IN MY TUMMY"
      puts y
   end
-  binding.pry
 end
+binding.pry
