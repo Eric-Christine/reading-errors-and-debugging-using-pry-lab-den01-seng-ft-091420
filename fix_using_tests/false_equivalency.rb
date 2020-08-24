@@ -9,11 +9,11 @@ def prompt_user
 end
 
 def get_user_input
-  gets.chomp.to_i = num
+  gets.chomp.to_i
 end
 
 def selection(get_user_input)
-  if num == 1
+  if get_user_input == 1
      "YUM YUM MUNCH MUNCH MUNCH"
      binding.pry
   end
