@@ -14,10 +14,12 @@ end
 
 def selection(get_user_input)
   if get_user_input == 1
-     print "YUM YUM MUNCH MUNCH MUNCH"
+     x = "YUM YUM MUNCH MUNCH MUNCH"
+     puts x
   end
   if get_user_input == 2
-     p "HAM HAM HAM IN MY TUMMY"
+     y = "HAM HAM HAM IN MY TUMMY"
+     puts y
   end
   binding.pry
 end
