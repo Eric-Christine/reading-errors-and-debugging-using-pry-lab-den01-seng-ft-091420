@@ -1,6 +1,6 @@
 # don't forget to add: require 'pry'
 
-
+require 'pry'
 
 def prompt_user
   puts "What would you like to do?"
