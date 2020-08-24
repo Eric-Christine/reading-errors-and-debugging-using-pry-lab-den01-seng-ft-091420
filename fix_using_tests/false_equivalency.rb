@@ -22,4 +22,3 @@ def selection(get_user_input)
      puts y
   end
 end
-binding.pry
