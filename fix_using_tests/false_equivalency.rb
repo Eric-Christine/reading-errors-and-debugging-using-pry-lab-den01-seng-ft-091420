@@ -9,7 +9,7 @@ def prompt_user
 end
 
 def get_user_input
-  gets.chomp.to_i
+  gets.chomp.to_i 
 end
 
 def selection(get_user_input)
@@ -17,7 +17,7 @@ def selection(get_user_input)
      "YUM YUM MUNCH MUNCH MUNCH"
      binding.pry
   end
-  else if num == 2
+  if num == 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
