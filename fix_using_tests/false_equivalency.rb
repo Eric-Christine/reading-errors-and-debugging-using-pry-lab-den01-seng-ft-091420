@@ -17,6 +17,6 @@ def selection(get_user_input)
      p "YUM YUM MUNCH MUNCH MUNCH"
   end
   if get_user_input == 2
-     puts "HAM HAM HAM IN MY TUMMY"
+     p "HAM HAM HAM IN MY TUMMY"
   end
 end
