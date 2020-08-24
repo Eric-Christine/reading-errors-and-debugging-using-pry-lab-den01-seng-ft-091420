@@ -1,6 +1,6 @@
 # don't forget to add: require 'pry'
 
-require 'pry'
+
 
 def prompt_user
   puts "What would you like to do?"
@@ -10,13 +10,11 @@ end
 
 def get_user_input
   gets.chomp
-  binding.pry
 end
 
 def selection(get_user_input)
   if get_user_input == 1
      p "YUM YUM MUNCH MUNCH MUNCH"
-     binding.pry
   end
   if get_user_input == 2
      p "HAM HAM HAM IN MY TUMMY"
