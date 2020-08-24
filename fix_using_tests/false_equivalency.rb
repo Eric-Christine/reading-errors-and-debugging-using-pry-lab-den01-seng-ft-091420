@@ -17,5 +17,6 @@ def selection(get_user_input)
      binding.pry
   else if num == 2
      "HAM HAM HAM IN MY TUMMY"
+     binding.pry
 end
 
