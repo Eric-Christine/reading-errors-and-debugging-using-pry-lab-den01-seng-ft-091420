@@ -15,7 +15,6 @@ end
 def selection(get_user_input)
   if get_user_input == 1
      "YUM YUM MUNCH MUNCH MUNCH"
-     binding.pry
   end
   if get_user_input == 2
      "HAM HAM HAM IN MY TUMMY"
