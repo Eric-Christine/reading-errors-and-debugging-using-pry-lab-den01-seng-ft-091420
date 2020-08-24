@@ -9,7 +9,7 @@ def prompt_user
 end
 
 def get_user_input
-  gets.chomp.to_i 
+  gets.chomp.to_i = num
 end
 
 def selection(get_user_input)
