@@ -15,10 +15,10 @@ end
 def selection(get_user_input)
   if get_user_input == 1
      x = "YUM YUM MUNCH MUNCH MUNCH"
-     p x
+     return x
   end
   if get_user_input == 2
      y = "HAM HAM HAM IN MY TUMMY"
-     p y
+     return y
   end
 end
