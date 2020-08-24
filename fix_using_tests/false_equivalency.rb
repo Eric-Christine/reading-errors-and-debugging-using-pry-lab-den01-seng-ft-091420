@@ -10,6 +10,7 @@ end
 
 def get_user_input
   gets.chomp
+  binding.pry
 end
 
 def selection(get_user_input)
