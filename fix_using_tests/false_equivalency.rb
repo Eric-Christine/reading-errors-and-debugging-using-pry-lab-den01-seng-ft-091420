@@ -16,7 +16,7 @@ def selection(get_user_input)
   if num == 1
      "YUM YUM MUNCH MUNCH MUNCH"
   end
-  else if num == 2
+  elseif num == 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
